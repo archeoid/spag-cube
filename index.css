@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Futura;
+  src: url(FuturaCondensedRegular.ttf);
+}
+
+body {
+margin: 0;
+background-color: #000;
+color: #fff;
+font-family: Futura;
+font-size: 4vmin;
+  letter-spacing: 2px;
+overscroll-behavior: none;
+}
+
+#info {
+position: absolute;
+bottom: 10vh;
+  right: 10vh;
+width: 100%;
+text-align: right;
+z-index: 100;
+display:block;
+}
+
+@media (min-width: 1000px) {
+  body {
+      font-size: 3vmin;
+  }
+}
